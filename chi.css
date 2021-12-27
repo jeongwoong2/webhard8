@@ -1,0 +1,163 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.bigbox{
+    
+    position: absolute;  
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 0px;
+    line-height: 1.7;;
+    width: 800px;
+}
+@media only screen and (max-width: 900px) {
+    .bigbox {
+      width: 90%;
+      padding-right: 15px;
+    }
+  }
+h2{
+    border-bottom: 2px solid rgb(243, 243, 243);
+    padding-bottom: 10px;
+    font-size: 31px;
+    font-weight: 550;
+}
+@media only screen and (max-width: 700px) {
+    h2 {
+        margin-top:0px;
+    }   
+  }
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-top:40px;
+  }
+  @media only screen and (max-width: 700px) {
+    .box {
+        padding-top:10px;
+    }   
+  }
+a{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    color:black;
+    text-decoration:none;
+}
+@media only screen and (max-width: 700px) {
+    a {
+      display: flex;
+      flex-direction:column;
+      text-align:center;
+      border: 1px solid rgb(223, 223, 223);
+    }   
+  }
+.two{
+    border: 1px solid black;
+    margin-bottom:20px
+}
+.three{
+    border:1px solid black;
+    margin-bottom:20px;
+}
+.four{
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.five{
+    border: 1px solid black;
+    margin-bottom:20px
+}
+.six{
+    border:1px solid black;
+    margin-bottom:20px;
+}
+.seven{
+    border: 1px solid black;
+    margin-bottom:20px
+}
+.eight{
+    border:1px solid black;
+    margin-bottom:20px;
+}
+.mong{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:33px;
+    padding-right:10px;
+}
+@media only screen and (max-width: 700px) {
+    .mong {
+      padding: 0px;
+      padding-top: 10px;
+      height: 80px;
+    }   
+  }
+.news{
+    width: 400px;
+    padding-top: 10px;
+    line-height: 27px;
+    padding-right:0px;
+}
+@media only screen and (max-width: 700px) {
+    .news {
+      width: 80%;
+      padding-left: 10%;
+      padding-top: 0px;
+      padding-bottom:10px;
+    }   
+  }
+.point{
+    font-weight: bold;
+}
+.newssize{
+    font-size:13px
+}
+.file{
+    padding-right:10px;
+    width:180px;  
+}
+.go{
+    line-height: 168px;
+    margin:0;  
+    width: 175px; 
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+@media only screen and (max-width: 700px) {
+    .go {
+      padding: 0px;
+      width:100%;
+      height: 45px;
+      line-height: 45px;
+    }   
+  }
+a:hover {
+    background-color: rgb(233, 233, 233);
+}
+.bogo{
+    padding-top:42px;  
+    padding-bottom: 40px;
+    padding-left:33px;
+    padding-right:10px;
+}
+@media only screen and (max-width: 700px) {
+    .bogo {
+      padding: 0px;
+      padding-top: 10px;
+      height: 80px;
+    }   
+  }
+.smart{
+    padding-top:57px;  
+    padding-bottom: 40px;
+    padding-left:33px;
+    padding-right:10px;
+}
+.time{
+  color: red;
+}
+
